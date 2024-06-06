@@ -19,6 +19,6 @@ export const GlobalStyle = createGlobalStyle`
         height: 100svh;
         display: flex;
         justify-content: center;
-        align-item: center;
+        align-items: center;
     }
 `
