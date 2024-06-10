@@ -39,9 +39,10 @@ export const CardContainer = styled.div`
             transition: all .3s;
         }
     }
+
     & > img {
         display: block;
-        margin: 1.3 rem auto 3.2rem;
+        margin: 1.3rem auto 3.2rem;
     }
 `
 
@@ -91,7 +92,7 @@ export const ButtonContainer = styled.div`
     }
 `
 
-export const ResultContainer = styled.p`
+export const ResultContainer = styled.div`
     padding: 0.4rem 1.8rem;
     background: ${props => props.theme.feedbackButtonColor};
     width: fit-content;
